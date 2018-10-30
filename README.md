@@ -56,3 +56,12 @@ This repository contains the demo for the DevNation Live tech talk about Getting
     * `python producer.py`
 
 ## Send and receive messages using Javascript
+
+* Go the the directory with Kafka clients
+    * `cd ../node.js`
+* Install the `node-rdkafka` client
+    * `npm install node-rdkafka`
+* Start the Kafka consumer
+    * `node consumer.js`
+* Start the Kafka producer
+    * `node producer.js`
