@@ -44,12 +44,22 @@ This repository contains the demo for the DevNation Live tech talk about Getting
 * Start the Kafka producer
     * `mvn compile exec:java -Dexec.mainClass="kafka.MessageProducer"`
 
+## Send and receive messages using Spring
+
+* Go the the directory with Spring
+    * `cd ../spring`
+* Run the Spring application
+    * `mvn spring-boot:run`
+* Send messages using the REST API
+    * `curl -sv -X POST -H "Content-Type: text/plain" http://localhost:8080/kafka/ --data 'Hello World from Spring'`
+* Check the logs for received messages
+
 ## Send and receive messages using Python
 
-* Install the Kafka client
-    * `pip install confluent-kafka`
 * Go the the directory with Kafka clients
     * `cd ../python`
+* Install the Kafka client
+    * `pip install confluent-kafka`
 * Start the Kafka consumer
     * `python consumer.py`
 * Start the Kafka producer
