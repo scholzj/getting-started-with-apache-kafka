@@ -87,7 +87,7 @@ public class MessageConsumerRebalancing implements Runnable {
         System.setProperty("org.slf4j.simpleLogger.defaultLogLevel", "info");
         System.setProperty("org.slf4j.simpleLogger.showThreadName", "false");
 
-        CountDownLatch latch = new CountDownLatch(10000);
+        CountDownLatch latch = new CountDownLatch(100000);
 
         MessageConsumerRebalancing consumer = new MessageConsumerRebalancing(latch);
         Thread consumerThread = new Thread(consumer);

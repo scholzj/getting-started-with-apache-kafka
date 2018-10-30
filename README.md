@@ -32,7 +32,7 @@ This repository contains the demo for the DevNation Live tech talk about Getting
 ## Send and receive messages using CLI
 
 * As a quick check, you can check that sending and receiving messages works from command line
-* `echo "Hello World from CLI" | bin/kafka-console-producer.sh --broker-list localhost:9092 --topic dev-nation`
+* `echo "Hello World from CLI" | bin/kafka-console-producer.sh --broker-list localhost:9092 --topic devnation`
 * `bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --from-beginning --topic devnation --max-messages 1`
 
 ## Send and receive messages using Java
