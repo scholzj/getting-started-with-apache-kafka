@@ -48,6 +48,7 @@ public class MessageConsumer implements Runnable {
                 System.out.println("-I- received message:" +
                         "\n\t Topic: " + record.topic() +
                         "\n\t Partition: " + record.partition() +
+                        "\n\t Offset: " + record.offset() +
                         "\n\t Key: " + record.key() +
                         "\n\t Value: " + record.value());
 
