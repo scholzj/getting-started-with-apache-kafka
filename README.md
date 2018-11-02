@@ -2,6 +2,8 @@
 
 This repository contains the demo for the DevNation Live tech talk about Getting Started with Apache Kafka.
 
+[![Getting started with Apache Kafka | DevNation Live](http://img.youtube.com/vi/CZhOJ_ysIiI/0.jpg)](http://www.youtube.com/watch?v=CZhOJ_ysIiI "Getting started with Apache Kafka | DevNation Live")
+
 ## Clone this repository
 
 * Clone this repository
