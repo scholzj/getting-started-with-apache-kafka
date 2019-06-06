@@ -18,7 +18,7 @@ if __name__ == '__main__':
 
     while True:
         msg = 'Hello World from Python ' + str(counter)
-        sys.stderr.write('-I- Sedning message: %d\n' % counter)
+        sys.stderr.write('-I- Sending message: %d\n' % counter)
         p.produce('devnation', msg, callback=delivery_callback)
         counter += 1
         p.poll(0)
